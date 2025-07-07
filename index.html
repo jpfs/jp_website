@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DAVDSM - A Agência Criativa que te ajuda a voar</title>
+
+    <!-- Meta Tags para SEO -->
+    <meta
+      name="description"
+      content="DAVDSM é uma agência criativa especializada em design, desenvolvimento web/móvel, marketing e comunicação. Ajudamos start-ups e empresas a lançar e impulsionar as suas marcas."
+    />
+    <meta
+      name="keywords"
+      content="agência criativa, design, desenvolvimento web, marketing digital, Portugal, DAVDSM"
+    />
+    <meta name="author" content="DAVDSM" />
+
+    <!-- Open Graph Meta Tags -->
+    <meta
+      property="og:title"
+      content="DAVDSM - A Agência Criativa que te ajuda a voar"
+    />
+    <meta
+      property="og:description"
+      content="Especializada em design, desenvolvimento web/móvel, marketing e comunicação desde 2015."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://davdsm.pt" />
+    <meta property="og:image" content="https://davdsm.pt/og-image.jpg" />
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="DAVDSM - A Agência Criativa que te ajuda a voar"
+    />
+    <meta
+      name="twitter:description"
+      content="Especializada em design, desenvolvimento web/móvel, marketing e comunicação desde 2015."
+    />
+    <meta name="twitter:image" content="https://davdsm.pt/twitter-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+    <!-- Custom CSS for smooth scrolling -->
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+
+      .line-clamp-3 {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+
+      /* Custom animations */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translate3d(0, 40px, 0);
+        }
+        to {
+          opacity: 1;
+          transform: translate3d(0, 0, 0);
+        }
+      }
+
+      .fade-in-up {
+        animation: fadeInUp 0.6s ease-out;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
