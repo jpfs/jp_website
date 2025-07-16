@@ -16,7 +16,7 @@ export const LanguageProvider = ({ children }) => {
   // Get initial language from localStorage or default to Portuguese
   const getInitialLanguage = () => {
     if (typeof window !== "undefined") {
-      const saved = localStorage.getItem("davdsm-language");
+      const saved = localStorage.getItem("jpfs-language");
       if (saved) return saved;
 
       // Check browser language
@@ -37,7 +37,7 @@ export const LanguageProvider = ({ children }) => {
     if (lang === "pt" || lang === "en") {
       setCurrentLanguage(lang);
       if (typeof window !== "undefined") {
-        localStorage.setItem("davdsm-language", lang);
+        localStorage.setItem("jpfs-language", lang);
         // Update HTML lang attribute
         document.documentElement.lang = lang;
       }

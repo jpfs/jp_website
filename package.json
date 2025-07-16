@@ -1,7 +1,7 @@
 {
-  "name": "davdsm-website",
+  "name": "jpfs-website",
   "version": "1.0.0",
-  "description": "Website oficial da DAVDSM - Agência Criativa",
+  "description": "Website oficial da JPfs - Agência Criativa",
   "private": true,
   "type": "module",
   "scripts": {
@@ -32,7 +32,7 @@
     "vite": "^4.4.5"
   },
   "keywords": [
-    "davdsm",
+    "jpfs",
     "agência criativa",
     "design",
     "desenvolvimento web",
@@ -40,6 +40,6 @@
     "react",
     "portugal"
   ],
-  "author": "DAVDSM",
+  "author": "JPfs",
   "license": "MIT"
 }

@@ -13,7 +13,7 @@ export const en = {
     subtitle: "No blah-blah-blah. Just results.",
     heading: "The Creative Agency that helps you fly.",
     description:
-      "Founded in 2015, DAVDSM is an agency specialized in design, web/mobile development, marketing and communication. We help start-ups, small businesses and companies from various sectors to launch, renew or boost their brands.",
+      "Founded in 2015, JPfs is an agency specialized in design, web/mobile development, marketing and communication. We help start-ups, small businesses and companies from various sectors to launch, renew or boost their brands.",
     cta: "Let's Talk",
   },
 
@@ -74,7 +74,7 @@ export const en = {
   // Footer
   footer: {
     tagline: "The Creative Agency that helps you fly.",
-    copyright: "© 2024 DAVDSM. All rights reserved.",
+    copyright: "© 2024 JPfs. All rights reserved.",
   },
 
   // Project Data
@@ -91,7 +91,7 @@ export const en = {
       name: "At Home",
       category: "Programming",
       description:
-        "At DAVDSM, we are driven by the passion to transform ideas into engaging digital experiences. The latest project with At Home was a reflection of that.",
+        "At JPfs, we are driven by the passion to transform ideas into engaging digital experiences. The latest project with At Home was a reflection of that.",
       duration: "1 Month",
       date: "August 2023",
     },

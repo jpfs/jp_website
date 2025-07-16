@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        davdsm: {
+        jpfs: {
           darkest: "#132a13",
           dark: "#31572c",
           medium: "#4f772d",

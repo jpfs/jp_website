@@ -10,7 +10,7 @@ const Navigation = () => {
       <div className="max-w-6xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold bg-gradient-to-r from-[#4f772d] to-[#90a955] bg-clip-text text-transparent">
-            DAVDSM
+            JPfs
           </div>
 
           <div className="flex items-center space-x-8">

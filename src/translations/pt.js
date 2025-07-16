@@ -13,7 +13,7 @@ export const pt = {
     subtitle: "Sem blá-blá-blá. Só resultados.",
     heading: "A Agência Criativa que te ajuda a voar.",
     description:
-      "Criada em 2015, a DAVDSM é uma agência especializada em design, desenvolvimento web/móvel, marketing e comunicação. Ajudamos start-ups, pequenos negócios e empresas de diversos setores a lançarem, renovarem ou impulsionarem as suas marcas.",
+      "Criada em 2015, a JPfs é uma agência especializada em design, desenvolvimento web/móvel, marketing e comunicação. Ajudamos start-ups, pequenos negócios e empresas de diversos setores a lançarem, renovarem ou impulsionarem as suas marcas.",
     cta: "Vamos Conversar",
   },
 
@@ -75,7 +75,7 @@ export const pt = {
   // Footer
   footer: {
     tagline: "A Agência Criativa que te ajuda a voar.",
-    copyright: "© 2024 DAVDSM. Todos os direitos reservados.",
+    copyright: "© 2024 JPfs. Todos os direitos reservados.",
   },
 
   // Project Data
@@ -92,7 +92,7 @@ export const pt = {
       name: "At Home",
       category: "Programação",
       description:
-        "Na DAVDSM, movemo-nos pela paixão de transformar ideias em experiências digitais envolventes. O mais recente projeto com a At Home foi um reflexo disso.",
+        "Na JPfs, movemo-nos pela paixão de transformar ideias em experiências digitais envolventes. O mais recente projeto com a At Home foi um reflexo disso.",
       duration: "1 Mês",
       date: "Agosto 2023",
     },
