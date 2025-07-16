@@ -4,13 +4,12 @@ export default {
   theme: {
     extend: {
       colors: {
-        // DAVDSM Custom Color Palette
         davdsm: {
-          darkest: "#132a13", // Verde muito escuro
-          dark: "#31572c", // Verde escuro
-          medium: "#4f772d", // Verde médio
-          light: "#90a955", // Verde claro
-          lightest: "#ecf39e", // Verde muito claro/amarelado
+          darkest: "#132a13",
+          dark: "#31572c",
+          medium: "#4f772d",
+          light: "#90a955",
+          lightest: "#ecf39e",
         },
       },
       fontFamily: {
@@ -32,15 +31,7 @@ export default {
           },
         },
       },
-      boxShadow: {
-        davdsm:
-          "0 20px 25px -5px rgba(79, 119, 45, 0.1), 0 10px 10px -5px rgba(79, 119, 45, 0.04)",
-      },
-      backgroundImage: {
-        "davdsm-gradient":
-          "linear-gradient(135deg, #132a13 0%, #31572c 50%, #4f772d 100%)",
-      },
     },
   },
-  plugins: [require("@tailwindcss/line-clamp")],
+  plugins: [],
 };
