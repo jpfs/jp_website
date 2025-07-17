@@ -70,6 +70,77 @@ export const pt = {
     email: "Email",
     phone: "Telefone",
     cta: "Contactar Agora",
+
+    // Contact Page
+    page: {
+      title: "Vamos falar de resultados!",
+      subtitle:
+        "A nossa equipa está sempre pronta para responder a todas as tuas dúvidas. Contacta-nos e vamos transformar as tuas ideias em realidade.",
+    },
+
+    // Contact Information
+    info: {
+      title: "Informações de Contacto",
+      description:
+        "Estamos disponíveis 24 horas por dia, todos os dias. Se preferires, podes contactar-nos diretamente por telefone ou email.",
+      email: {
+        title: "Email",
+        description: "Resposta em até 24 horas",
+      },
+      phone: {
+        title: "Telefone",
+        description: "Chamada para rede móvel nacional",
+      },
+      location: {
+        title: "Localização",
+        address: "Portugal",
+        description: "Trabalhamos remotamente e presencialmente",
+      },
+      hours: {
+        title: "Horário de Funcionamento",
+        weekdays: "24/7 - Sempre disponível",
+        note: "Resposta garantida em 24 horas",
+      },
+    },
+
+    // Contact Form
+    form: {
+      title: "Deixa-nos uma mensagem",
+      description:
+        "Conta-nos sobre o teu projeto e como podemos ajudar-te a alcançar os teus objetivos.",
+      name: "Nome",
+      namePlaceholder: "O teu nome completo",
+      email: "Email",
+      emailPlaceholder: "exemplo@email.com",
+      phone: "Telefone",
+      phonePlaceholder: "+351 XXX XXX XXX",
+      company: "Empresa",
+      companyPlaceholder: "Nome da empresa (opcional)",
+      subject: "Assunto",
+      subjectPlaceholder: "Qual é o teu projeto?",
+      message: "Mensagem",
+      messagePlaceholder:
+        "Conta-nos mais sobre o teu projeto, objetivos e como podemos ajudar...",
+      send: "Enviar Mensagem",
+      sending: "A enviar...",
+    },
+
+    // Success Message
+    success: {
+      title: "Mensagem Enviada!",
+      message:
+        "Obrigado pela tua mensagem! Entraremos em contacto contigo dentro de 24 horas.",
+      backButton: "Voltar ao Contacto",
+    },
+
+    // Call to Action
+    cta: {
+      title: "Pronto para começar?",
+      description:
+        "Vamos conversar sobre como podemos ajudar-te a alcançar os teus objetivos.",
+      emailButton: "Enviar Email",
+      phoneButton: "Ligar Agora",
+    },
   },
 
   // Footer

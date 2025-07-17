@@ -5,11 +5,12 @@ import HeroSection from "./components/HeroSection";
 import ProjectCard from "./components/ProjectCard";
 import ProcessStep from "./components/ProcessStep";
 import ContactSection from "./components/ContactSection";
+import ContactPage from "./components/ContactPage";
 import Footer from "./components/Footer";
 
 const AppContent = () => {
   const { getTranslations, t } = useLanguage();
-  const [activeProject, setActiveProject] = useState(0);
+  const [currentPage, setCurrentPage] = useState("home");
 
   const translations = getTranslations();
   const projects = translations.projectsData;
@@ -20,13 +21,33 @@ const AppContent = () => {
     translations.process.steps.implementation,
   ];
 
+  const handleNavigation = (page) => {
+    setCurrentPage(page);
+    // Scroll para o topo quando mudar de página
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  // Se estiver na página de contactos, renderizar apenas a ContactPage
+  if (currentPage === "contact") {
+    return (
+      <div className="min-h-screen bg-white">
+        <Navigation currentPage={currentPage} onNavigate={handleNavigation} />
+        <ContactPage />
+        <Footer />
+      </div>
+    );
+  }
+
+  // Página inicial
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <Navigation />
+      <Navigation currentPage={currentPage} onNavigate={handleNavigation} />
 
       {/* Hero Section */}
-      <HeroSection />
+      <section id="inicio">
+        <HeroSection />
+      </section>
 
       {/* Projects Section */}
       <section id="projetos" className="py-20 bg-gray-50">
@@ -69,7 +90,11 @@ const AppContent = () => {
       </section>
 
       {/* Contact Section */}
-      <ContactSection />
+      <section id="contacto">
+        <ContactSection
+          onNavigateToContact={() => handleNavigation("contact")}
+        />
+      </section>
 
       {/* Footer */}
       <Footer />

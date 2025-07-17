@@ -69,6 +69,76 @@ export const en = {
     email: "Email",
     phone: "Phone",
     cta: "Contact Now",
+
+    // Contact Page
+    page: {
+      title: "Let's talk results!",
+      subtitle:
+        "Our team is always ready to answer all your questions. Contact us and let's turn your ideas into reality.",
+    },
+
+    // Contact Information
+    info: {
+      title: "Contact Information",
+      description:
+        "We are available 24 hours a day, every day. If you prefer, you can contact us directly by phone or email.",
+      email: {
+        title: "Email",
+        description: "Response within 24 hours",
+      },
+      phone: {
+        title: "Phone",
+        description: "Call to Portuguese mobile network",
+      },
+      location: {
+        title: "Location",
+        address: "Portugal",
+        description: "We work remotely and in person",
+      },
+      hours: {
+        title: "Working Hours",
+        weekdays: "24/7 - Always available",
+        note: "Response guaranteed within 24 hours",
+      },
+    },
+
+    // Contact Form
+    form: {
+      title: "Leave us a message",
+      description:
+        "Tell us about your project and how we can help you achieve your goals.",
+      name: "Name",
+      namePlaceholder: "Your full name",
+      email: "Email",
+      emailPlaceholder: "example@email.com",
+      phone: "Phone",
+      phonePlaceholder: "+351 XXX XXX XXX",
+      company: "Company",
+      companyPlaceholder: "Company name (optional)",
+      subject: "Subject",
+      subjectPlaceholder: "What's your project?",
+      message: "Message",
+      messagePlaceholder:
+        "Tell us more about your project, goals and how we can help...",
+      send: "Send Message",
+      sending: "Sending...",
+    },
+
+    // Success Message
+    success: {
+      title: "Message Sent!",
+      message:
+        "Thank you for your message! We will contact you within 24 hours.",
+      backButton: "Back to Contact",
+    },
+
+    // Call to Action
+    cta: {
+      title: "Ready to start?",
+      description: "Let's talk about how we can help you achieve your goals.",
+      emailButton: "Send Email",
+      phoneButton: "Call Now",
+    },
   },
 
   // Footer
